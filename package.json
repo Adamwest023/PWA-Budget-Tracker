@@ -1,40 +1,28 @@
 {
   "name": "PWA-Budget-Tracker",
   "version": "1.0.0",
-  "description": "",
-  "engines": {
-    "node": "14.17.6"
-  },
+  "description": "Application for tracking budgets",
   "main": "server.js",
   "scripts": {
-    "webpack": "webpack --watch",
-    "build": "webpack",
-    "prestart": "webpack",
-    "start": "node server.js ",
-    "start:dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
     "lite-server": "lite-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Adamwest023/PWA-Budget-Tracker"
   },
-  "author": "",
+  "author": "Adam West",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "url": "https://github.com/Adamwest023/PWA-Budget-Tracker"
   },
   "homepage": "https://github.com/Adamwest023/PWA-Budget-Tracker",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
-    "idb": "^7.0.0",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1"
   },
-  "devDependencies": {
-    "webpack": "^4.46.0",
-    "webpack-cli": "^4.6.0",
-    "webpack-dev-server": "^4.7.3"
-  }
+  "devDependencies": {}
 }
